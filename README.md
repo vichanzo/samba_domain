@@ -76,3 +76,4 @@ real permit --withdraw user@example.com
 5) https://helpdeskgeek.com/how-to/active-directory-force-replication
 6) https://www.server-world.info/en/note?os=Ubuntu_20.04&p=samba&f=4
 7) https://www.freedesktop.org/software/realmd/docs/realm/html
+8) https://kb.brightcomputing.com/knowledge-base/how-do-i-authenticate-against-active-directory-ad/
