@@ -67,3 +67,4 @@ authconfig --enablewinbind --enablewinbindauth --smbsecurity user --smbservers="
 2) https://stealthbits.com/blog/join-linux-hosts-to-active-directory/
 3) https://www.thegeekdiary.com/choosing-sssd-or-winbind-samba-for-active-directory-integration-in-centos-rhel
 4) https://docs.oracle.com/en/operating-systems/oracle-linux/6/admin/enable-windbind.htm
+5) https://helpdeskgeek.com/how-to/active-directory-force-replication
