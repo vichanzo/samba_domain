@@ -62,9 +62,17 @@ authconfig --enablewinbind --enablewinbindauth --smbsecurity user --smbservers="
   --smbworkgroup=MYDOMAIN --update
 ```
 
+```
+realm permit --all
+realm permit  DOMAIN\\username
+real permit --withdraw user@example.com
+```
+
 ### References
 1) https://www.redhat.com/sysadmin/linux-active-directory
 2) https://stealthbits.com/blog/join-linux-hosts-to-active-directory/
 3) https://www.thegeekdiary.com/choosing-sssd-or-winbind-samba-for-active-directory-integration-in-centos-rhel
 4) https://docs.oracle.com/en/operating-systems/oracle-linux/6/admin/enable-windbind.htm
 5) https://helpdeskgeek.com/how-to/active-directory-force-replication
+6) https://www.server-world.info/en/note?os=Ubuntu_20.04&p=samba&f=4
+7) https://www.freedesktop.org/software/realmd/docs/realm/html
